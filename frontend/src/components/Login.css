@@ -17,7 +17,7 @@
 
 .login-card h1 {
   text-align: center;
-  color: #333;
+  color: #333333;
   margin-bottom: 8px;
   font-size: 28px;
 }
@@ -35,7 +35,7 @@
 }
 
 .toggle-link {
-  color: #667eea;
+  color: #54c064;
   cursor: pointer;
   font-weight: 600;
 }
