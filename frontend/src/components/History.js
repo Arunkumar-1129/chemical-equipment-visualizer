@@ -22,6 +22,7 @@ const History = ({ token, apiBaseUrl, onSelectDataset, onDownloadPDF }) => {
     };
 
     loadHistory();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [apiBaseUrl, token]);
 
   if (loading) {

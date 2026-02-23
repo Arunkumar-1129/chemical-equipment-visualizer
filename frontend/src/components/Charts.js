@@ -51,6 +51,7 @@ const Charts = ({ data, summary }) => {
   const flowrateData = data.map(item => item.Flowrate || 0);
   const pressureData = data.map(item => item.Pressure || 0);
   const equipmentNames = data.map(item => item['Equipment Name'] || '');
+  // const temperatureData = data.map(item => item.Temperature || 0); // Reserved for future use
 
   const parameterChartData = {
     labels: equipmentNames.slice(0, 20), // Limit to first 20 for readability

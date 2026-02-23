@@ -67,6 +67,7 @@ const Dashboard = ({ token, user, onLogout, apiBaseUrl }) => {
     };
 
     loadLatestData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [apiBaseUrl, token]);
 
   const handleDownloadPDF = async (datasetId) => {
