@@ -1,3 +1,6 @@
+Deployed backend:Render
+Deployed frontend:Vercel
+Link:https://chemical-equipment-visualizer-beige.vercel.app/
 # Chemical Equipment Parameter Visualizer
 
 A hybrid web + desktop application for visualizing and analyzing chemical equipment data from CSV files. Built with Django REST Framework backend, React.js web frontend, and PyQt5 desktop frontend.
